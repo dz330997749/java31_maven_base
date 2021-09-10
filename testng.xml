@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="xxx项目">
+    <test name="yyy模块" >
+        <classes>
+            <class name="com.lemon.testng.BeforeAfterDemo" />
+        </classes>
+    </test>
+
+    <test name="zzz模块">
+        <classes>
+            <class name="com.lemon.testng.BeforeAfter2Demo"/>
+        </classes>
+    </test>
+</suite>

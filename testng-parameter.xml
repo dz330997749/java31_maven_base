@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="xxx项目">
+    <test name="yyy模块">
+        <classes>
+            <class name="com.lemon.testng.ParameterDemo">
+                <parameter name="type" value="ie"></parameter>
+                <parameter name="sheetIndex" value="0"></parameter>
+                <parameter name="version" value="11"></parameter>
+            </class>
+
+            <class name="com.lemon.testng.ParameterDemo2">
+                <parameter name="type" value="firefox"></parameter>
+                <parameter name="sheetIndex" value="1"></parameter>
+                <parameter name="version" value="71"></parameter>
+            </class>
+        </classes>
+    </test>
+    <parameter name="type" value="chrome"></parameter>
+    <parameter name="version" value="91"></parameter>
+</suite>
